@@ -191,6 +191,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_author",
+						"type": "address"
+					}
+				],
+				"name": "getTotalLikes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_i",
 						"type": "uint256"
@@ -341,7 +360,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Twitter-AddEvent-Exercise.sol": "Twitter"
+			"contracts/Twitter-Inheritance.sol": "Twitter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -355,12 +374,28 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Twitter-AddEvent-Exercise.sol": {
-			"keccak256": "0x44b9c9092cfcc7875ea769ac489e66d59d71b2bf0fe5640f14f5e48ae306e63d",
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c3cbef6f0f4f6671e7b21777412b25b31cd3e3eb522772b160a5ae038add74f7",
-				"dweb:/ipfs/QmUkBHwPKgfzvUbqJxdQv3XYCxEKw3U9gJU9hd7L5geDRJ"
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"contracts/Twitter-Inheritance.sol": {
+			"keccak256": "0x58034a53075db2b4aec7131542451dbf255181026fc18dbc2402ecfbef2f3f6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4b52cee6d37d8456556e355fbe7279d21271bf1d51121b59d7359d31cae4696",
+				"dweb:/ipfs/QmUnUwN3GvctKEQEQRzc41hJzm4dTS211Dg1hTHmnLaFAJ"
 			]
 		}
 	},
